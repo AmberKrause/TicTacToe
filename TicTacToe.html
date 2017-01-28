@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!--
+    Amber Krause
+	March 29, 2016
+    CISC 131
+
+    HTML document for assignment due March 31, 2016. This assignment
+    creates a Tic-Tac-Toe board.
+-->
+<html lang="en">
+<head>
+<title>Tic-Tac-Toe Part III</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<script src="TicTacToe.js" type="text/javascript"></script>
+<style type="text/css">
+*
+{
+ border : 0;
+ margin : 0;
+ padding: 0;
+}
+
+body
+{
+ font-size   : 12pt;
+ margin-left : auto;
+ margin-right: auto;
+ padding-top : 5em;
+ width       : 33em;
+}
+
+.square
+{
+ float     : left;
+ font-size : 8em;
+ height    : 1.25em;
+ text-align: center;
+ width     : 1.25em;
+}
+
+.bottomBorder { border-bottom: 2px solid black; }
+
+.leftBorder   { border-left  : 2px solid black; }
+</style>
+</head>
+<body>
+	<div id="gameBoard">
+		<div id="ticTacToeBoard">
+			<div id="square0" class="square bottomBorder           "></div>
+			<div id="square1" class="square bottomBorder leftBorder"></div>
+			<div id="square2" class="square bottomBorder leftBorder"></div>
+			<div id="square3" class="square bottomBorder           "></div>
+			<div id="square4" class="square bottomBorder leftBorder"></div>
+			<div id="square5" class="square bottomBorder leftBorder"></div>
+			<div id="square6" class="square                        "></div>
+			<div id="square7" class="square              leftBorder"></div>
+			<div id="square8" class="square              leftBorder"></div>
+		</div>
+	</div>
+</body>
+</html>
